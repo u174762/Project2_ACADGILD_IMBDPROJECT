@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.movies.niranjan.com.movieproj.fragments.MoviesListFragment">
+    <item
+        android:id="@+id/my_favorite"
+        android:title="@string/my_favorite"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_menu_favorite"/>
+
+    <item
+        android:id="@+id/watch_list"
+        android:title="@string/watch_list"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_menu_watchlist"/>
+
+</menu>

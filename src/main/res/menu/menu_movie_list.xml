@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="in.movies.niranjan.com.movieproj.fragments.MoviesListFragment">
+
+
+    <item
+        android:id="@+id/movies"
+        android:icon="@mipmap/ic_menu_filter"
+        android:title="@string/movies"
+        app:showAsAction="always">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" >
+            <item
+                android:id="@+id/popular"
+                android:title="@string/popular" />
+            <item
+                android:id="@+id/upcoming"
+                android:title="@string/upcoming" />
+
+            <item
+                android:id="@+id/latest"
+                android:title="@string/latest" />
+
+            <item
+                android:id="@+id/now_playing"
+                android:title="@string/now_playing" />
+
+            <item
+                android:id="@+id/top_rated"
+                android:title="@string/top_rated"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/my_favorite"
+        android:title="@string/my_favorite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/watch_list"
+        android:orderInCategory="100"
+        android:title="@string/watch_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="@string/refresh"
+        app:showAsAction="never" />
+</menu>
